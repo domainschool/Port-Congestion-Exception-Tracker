@@ -150,7 +150,7 @@ function App() {
               </div>
             </div>
           ) : view === 'about' ? (
-            <AboutPage />
+            <AboutPage onClose={() => setView('dashboard')} />
           ) : (
             <PromptsPage />
           )}

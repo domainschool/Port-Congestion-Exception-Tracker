@@ -14,7 +14,7 @@ Sentinel is a high-fidelity situational awareness dashboard designed to mitigate
 
 ![Sentinel Dashboard](/Users/prateekk/.gemini/antigravity/brain/81f046b7-5d18-4563-8b6c-71585cf2d417/final_dashboard_view_1778727565831.png)
 
-> **[🚀 View Live Demo on GitHub Pages](https://prateekk.github.io/Port-Congestion-Exception-Tracker/)** *(Note: Replace with actual URL after deployment)*
+> **[🚀 View Live Demo on GitHub Pages](https://domainschool.github.io/Port-Congestion-Exception-Tracker/)**
 
 ---
 
@@ -73,7 +73,7 @@ Unlike generic map trackers, Sentinel is built on industry-specific heuristics:
 ### **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/prateekk/Port-Congestion-Exception-Tracker.git
+   git clone https://github.com/domainschool/Port-Congestion-Exception-Tracker.git
    cd Port-Congestion-Exception-Tracker
    ```
 2. Install dependencies:

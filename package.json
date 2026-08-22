@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://prateekk.github.io/Port-Congestion-Exception-Tracker/",
+  "homepage": "https://domainschool.github.io/Port-Congestion-Exception-Tracker/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
