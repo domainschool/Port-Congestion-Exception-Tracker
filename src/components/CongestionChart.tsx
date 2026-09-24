@@ -21,8 +21,13 @@ const data = [
 const CongestionChart: React.FC = () => {
   return (
     <div className="px-4 py-2">
-      <div className="bg-slate-800/20 border border-slate-700/30 rounded-xl p-4">
-        <h3 className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-4">7-Day Congestion Trend</h3>
+      <div className="bg-slate-800/20 border border-slate-700/30 rounded-xl p-3.5">
+        <div className="flex items-center justify-between mb-3">
+          <h3 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">
+            7-Day Inbound API Congestion
+          </h3>
+          <span className="text-[9px] text-cyan-400 font-mono">Savannah Port</span>
+        </div>
         
         <div className="h-24 w-full">
           <ResponsiveContainer width="100%" height="100%">

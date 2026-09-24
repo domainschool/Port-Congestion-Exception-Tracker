@@ -7,5 +7,12 @@ export interface Vessel {
   arrival_timestamp: string; // ISO string
   lat: number;
   lng: number;
-  units_carried: number;
+  units_carried?: number;
+  poNumber: string;
+  apiMaterial: string;
+  drugProductImpacted: string;
+  impactedBatchCount: number;
+  batchRiskValue: number;
+  manufacturingSite: string;
+  coldChainRegulated: boolean;
 }
